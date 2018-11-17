@@ -9,12 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var textView: UITextView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    private lazy var horizontallyScrollableToolbarAccessoryView: UIView? = {
+        let nibName = "HorizontallyScrollableToolbarAccessoryView"
+        let view = Bundle.main.loadNibNamed(nibName, owner: nil, options: nil)?.first as? UIView
+        return view
+    }()
+
+    override var inputAccessoryView: UIView? {
+        assert(horizontallyScrollableToolbarAccessoryView != nil)
+        return horizontallyScrollableToolbarAccessoryView
     }
 
+    override var canBecomeFirstResponder: Bool {
+        return true
+    }
+
+    @IBAction private func dismissKeyboardButtonPressed(_ sender: UIButton) {
+        textView.resignFirstResponder()
+        becomeFirstResponder()
+    }
 
 }
 

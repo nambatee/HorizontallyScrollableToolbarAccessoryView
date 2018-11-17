@@ -12,6 +12,7 @@
 		7AFFF5AD21A0B7A6009886B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFFF5AB21A0B7A6009886B3 /* Main.storyboard */; };
 		7AFFF5AF21A0B7A7009886B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFFF5AE21A0B7A7009886B3 /* Assets.xcassets */; };
 		7AFFF5B221A0B7A7009886B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFFF5B021A0B7A7009886B3 /* LaunchScreen.storyboard */; };
+		7AFFF5BC21A0B870009886B3 /* HorizontallyScrollableToolbarAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AFFF5BA21A0B870009886B3 /* HorizontallyScrollableToolbarAccessoryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7AFFF5AE21A0B7A7009886B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AFFF5B121A0B7A7009886B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AFFF5B321A0B7A7009886B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFFF5BA21A0B870009886B3 /* HorizontallyScrollableToolbarAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontallyScrollableToolbarAccessoryView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7AFFF5A721A0B7A6009886B3 /* AppDelegate.swift */,
 				7AFFF5A921A0B7A6009886B3 /* ViewController.swift */,
+				7AFFF5BA21A0B870009886B3 /* HorizontallyScrollableToolbarAccessoryView.xib */,
 				7AFFF5AB21A0B7A6009886B3 /* Main.storyboard */,
 				7AFFF5AE21A0B7A7009886B3 /* Assets.xcassets */,
 				7AFFF5B021A0B7A7009886B3 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 				7AFFF5B221A0B7A7009886B3 /* LaunchScreen.storyboard in Resources */,
 				7AFFF5AF21A0B7A7009886B3 /* Assets.xcassets in Resources */,
 				7AFFF5AD21A0B7A6009886B3 /* Main.storyboard in Resources */,
+				7AFFF5BC21A0B870009886B3 /* HorizontallyScrollableToolbarAccessoryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
